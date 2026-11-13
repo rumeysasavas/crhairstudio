@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Tüm sayfalarda geçerli olacak varsayılan arka plan ve yazı rengi */
+body {
+  background-color: #283618; /* Forest Green */
+  color: #F5EBE0;            /* Light Sand */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Seçim (metin bloklama) renkleri */
+::selection {
+  background-color: #D9822B; /* Terracotta */
+  color: #ffffff;
+}
